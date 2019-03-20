@@ -5,7 +5,7 @@ def line(list)
     list.each_with_index do |x,num|
       newList.push " #{num + 1}. #{x}"
     end
-    puts "The line is currently: #{newList.join(" ")}"
+    puts "The line is currently:#{newList.join(" ")}"
   else
     puts 'The line is currently empty.'
   end
