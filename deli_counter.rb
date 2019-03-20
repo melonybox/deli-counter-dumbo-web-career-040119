@@ -22,4 +22,8 @@ def now_serving(list)
   if i == 0
     puts "There is nobody waiting to be served!"
   else
-    
+    newList = list[0]
+    list.shift()
+    puts "Currently serving #{newList}"
+  end
+end
