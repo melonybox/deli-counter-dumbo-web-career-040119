@@ -17,3 +17,4 @@ def take_a_number(list,item)
   puts "Welcome, #{item}. You are number #{justAdded + 1} in line."
 end
 
+def now_serving(list)
