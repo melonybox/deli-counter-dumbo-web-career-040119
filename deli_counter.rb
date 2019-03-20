@@ -18,3 +18,8 @@ def take_a_number(list,item)
 end
 
 def now_serving(list)
+  i = list.size
+  if i == 0
+    puts "There is nobody waiting to be served!"
+  else
+    
