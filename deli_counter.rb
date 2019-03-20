@@ -24,6 +24,6 @@ def now_serving(list)
   else
     newList = list[0]
     list.shift()
-    puts "Currently serving #{newList}"
+    puts "Currently serving #{newList}."
   end
 end
