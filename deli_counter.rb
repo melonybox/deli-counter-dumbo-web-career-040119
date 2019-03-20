@@ -12,5 +12,8 @@ def line(list)
 end
 
 def take_a_number(list,item)
-  
+  list.push(item)
+  justAdded = list.size - 1
+  puts "Welcome, #{item}. You are number #{justAdded + 1} in line."
 end
+
